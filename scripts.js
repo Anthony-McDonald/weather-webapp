@@ -1,7 +1,7 @@
 async function fetchWeatherInfo(location) {
   try {
     const response = await fetch(
-      "http://api.weatherapi.com/v1/current.json?key=43d9009306014ff7953170811242102&q=" +
+      "https://api.weatherapi.com/v1/current.json?key=43d9009306014ff7953170811242102&q=" +
         locationFormatted(location) +
         "&aqi=no"
     );
