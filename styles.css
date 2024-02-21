@@ -23,6 +23,21 @@ html {
   justify-content: center;
 }
 
+input {
+  background-color: transparent;
+  height: 3rem;
+  width: 70%;
+  font-size: 2rem;
+  border: none;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
 .weather-image {
   filter: invert(100%) sepia(12%) saturate(459%) hue-rotate(271deg)
     brightness(116%) contrast(100%);
